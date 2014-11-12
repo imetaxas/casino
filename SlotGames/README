@@ -1,0 +1,21 @@
+The code implements a small casino game slot framework.
+
+Two slot games are developed with the following rules:
+
+Business Rules
+---------------
+The first game (“slotgame”) should have the following rules:
+
+The player has an infinite amount of coins.
+The player bets 10 coins to play a normal game round
+In any round (free or normal), the player has a 30 % chance of winning back 20 coins. 
+In any round (free or normal), the player also has a 10% chance of triggering a free round where the player does not have to pay for bet. The free round works in the same way as a normal round except it costs 0 coins. The free round should follow immediately after the normal round.
+The player can both win coins and free round at the same time. 
+
+The second game (“bonusgame”) should have the following rules:
+
+The player has an infinite amount of coins.
+The player bets 10 coins to play a normal game
+The player has a 10% chance of triggering a bonus game.
+If the player wins a bonus game, they play a separate “box picking level”. In this round the player is given 5 boxes. One box will end the bonus game. The remaining boxes contain 5 coins each. Values are assigned to boxes randomly each time the player starts the level. The player will open boxes until they end the bonus level.
+The player should not be able to win coins by any other means.

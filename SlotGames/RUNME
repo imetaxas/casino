@@ -1,0 +1,21 @@
+Run the Maven goals
+-------------------
+package install
+
+
+Export Runnable JAR file 
+-------------------------
+all .class files should be exported into the folder SlotGames\target\classes\com\casino\games\slotgames
+
+
+Run from the command line:
+---------------------------
+
+Both games:
+java -jar SlotGames.jar com.casino.slotgames.GameApp
+
+The Slot game:
+java -jar SlotGames.jar com.casino.slotgames.SlotGameApp
+
+The Bonus game:
+java -jar SlotGames.jar com.casino.slotgames.BonusGameApp

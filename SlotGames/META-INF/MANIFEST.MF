@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: imetaxas
+Main-Class: com.casino.games.slotgames.GameApp
+Class-Path: bin/colt-1.2.0.jar
